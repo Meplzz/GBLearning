@@ -1,0 +1,48 @@
+<meta charset="utf-8">
+
+<script>
+
+    const curretAnswer1 = 'петух',
+          curretAnswer2 = 'индюк',
+          curretAnswer3 = 'золушка',
+          curretAnswer4 = 'шапка';
+
+    let scores = 0;
+
+    let userAnswer1 = prompt('Привет! Отгадай загадку:\nНе ездок, а со шпорами,\nНе будильник, а всех будит.','').toLowerCase();
+        if(userAnswer1 == curretAnswer1){
+            scores += 1;
+        }else {
+            alert('Не угадал!');
+        }
+    
+    let userAnswer2 = prompt('Привет! Отгадай загадку:\nРаспускает хвост павлином,\nХодит важным господином,\nПо земле ногами - стук,\nКак зовут его - ...','').toLowerCase();  
+        if(userAnswer2 == curretAnswer2){
+            scores += 1;
+        }else {
+            alert('Не угадал!');
+        }
+
+    let userAnswer3 = prompt('Привет! Отгадай загадку:\nОна красива и мила,\nА имя ей от слова \'зола\'.','').toLowerCase();
+        if(userAnswer3 == curretAnswer3){
+            scores += 1;
+        }else {
+            alert('Не угадал!');
+        }
+
+    let userAnswer4 = prompt('Привет! Отгадай загадку:\nСижу верхом,\nНе ведаю на ком.','').toLowerCase();
+    if(userAnswer4 == curretAnswer4){
+        scores += 1;
+    }else {
+        alert('Не угадал!');
+    }
+
+    alert('Верных ответов: ' + scores);
+    alert('Игра окончена! Спасибо за участие!')
+
+    
+</script>
+
+
+
+

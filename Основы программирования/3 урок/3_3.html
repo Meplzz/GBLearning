@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const curretAnswers = ['петух','индюк','золушка','шапка'];
+
+        let scores = 0;
+
+        userAnswer1 = prompt('Привет! Отгадай загадку:\nНе ездок, а со шпорами,\nНе будильник, а всех будит.','').toLowerCase();
+        userAnswer2 = prompt('Привет! Отгадай загадку:\nРаспускает хвост павлином,\nХодит важным господином,\nПо земле ногами - стук,\nКак зовут его - ...','').toLowerCase();
+        userAnswer3 = prompt('Привет! Отгадай загадку:\nОна красива и мила,\nА имя ей от слова \'зола\'.','').toLowerCase();
+        userAnswer4 = prompt('Привет! Отгадай загадку:\nСижу верхом,\nНе ведаю на ком.','').toLowerCase();
+        
+        userAnswers = [];
+        userAnswers.push(userAnswer1, userAnswer2, userAnswer3, userAnswer4);
+
+        const duplicatedValues = [...new Set(curretAnswers)].filter(item => userAnswers.includes(item));
+        
+        alert( 'Правильных ответов: ' + duplicatedValues.length );
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: rgb(65, 62, 62);
+        }
+    </style>
+</head>
+<body>
+    <script>
+
+        let bankDeposit     = +prompt("Введите сумму вклада:",''),
+            depositInterest = +prompt("Введите годовой процент по вкладу:",'');
+    
+        for(let annualPeriod = 1; annualPeriod <= 5; annualPeriod++){
+            let perYear = bankDeposit * (depositInterest / 100);
+            let totalContribution  = bankDeposit + perYear;
+            alert( `За ${annualPeriod} год сумма вашего вклада с учетом процентов составит:\n` + totalContribution );
+            bankDeposit = totalContribution;
+        };
+          
+    </script>
+</body>
+</html>
+
+

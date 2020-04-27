@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+
+<script>
+
+    let vkladSum = +prompt("Введите сумму вклада:",''),
+        vkladPercent = +prompt("Введите годовой процент по вкладу:",'');
+
+    let perYear = (vkladSum + ( vkladSum * (vkladPercent / 100) ));
+
+    for(let nowYear = 1; nowYear <= 5; nowYear++){
+        alert(perYear * nowYear);
+    };
+      
+</script>

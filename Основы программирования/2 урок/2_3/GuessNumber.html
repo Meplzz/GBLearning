@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: rgb(65, 62, 62);
+        }
+    </style>
+</head>
+<body>
+    <script>
+
+        let answer = parseInt( Math.random() * 100 );
+        let firstUserTell  = prompt('Игрок номер 1 введите число от 1 до 100','');
+        let secondUserTell = prompt('Игрок номер 2 введите число от 1 до 100','');
+        alert(answer);
+        
+        while( !isNaN(+firstUserTell) || !isNaN(+secondUserTell) ){
+            if( +firstUserTell  > answer ){
+                alert('Номер 1: слишком много!')
+                firstUserTell   = prompt('Игрок номер 1 введите число от 1 до 100','');
+                continue;
+            }
+            if( +secondUserTell > answer ){
+                alert('Номер 2: слишком много!');
+                secondUserTell  = prompt('Игрок номер 2 введите число от 1 до 100','');
+                continue;
+            }
+            if( +firstUserTell  < answer ){
+                alert('Номер 1: слишком мало!')
+                firstUserTell   = prompt('Игрок номер 1 введите число от 1 до 100','');
+                continue;
+            }
+            if( +secondUserTell < answer ){
+                alert('Номер 2: слишком мало!');
+                secondUserTell  = prompt('Игрок номер 2 введите число от 1 до 100','');
+                continue;
+            }
+        }
+
+        /*
+        for(let tryCount = 1; tryCount <= maxCount; tryCount++){
+            if(userTell == answer){
+                alert('Вы угадали');
+                break;
+            }else if(userTell > answer){
+                alert('Слишком много! ' + 'У вас осталось: ' + (maxCount - tryCount) + ' попыток');
+            }else if(userTell < answer){
+                alert('Слишком мало! ' + 'У вас осталось: ' + (maxCount - tryCount) + ' попыток');
+            }else if(tryCount < maxCount){
+                alert('Вы проиграли!')
+            }
+            userTell = +prompt('Введите число ещё раз',''); 
+        }
+        */
+
+        console.log(answer);
+        </script>
+</body>
+</html>
+

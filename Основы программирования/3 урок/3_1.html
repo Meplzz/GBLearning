@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        'use strict';
+
+        /**
+            ** 3_1_a:   Массив n - элементов
+        */
+        function arrNumbers(n){
+            let arr = [];
+            for(let k = 1; k <= n; k++){
+                arr.push(k);
+            }
+            return arr;
+        }
+        console.log('Массив n-элементов: ' + arrNumbers(10)); // задаем желаемое значение
+        /** 
+            ** сохраним полученный массив для использования в проверках ниже
+         */
+        const simleNumArray = (arrNumbers(7)); // задаем желаемое значение
+
+
+        /** 
+            ** 3_1_b:   Сумма значений массива 
+        */
+        let result = simleNumArray.reduce(
+            function(sum, arrNumber){
+                return sum + arrNumber; 
+        });
+        console.log('Сумма всех значений массива: ' + result);
+
+
+        /** 
+            ** 3_1_с:   Максимум из массива чисел
+        */
+        function getMaxNumber(numArr){
+            return Math.max.apply( null, numArr);
+        }
+        console.log('Максимум массива: ' + getMaxNumber(simleNumArray));
+
+
+        /** 
+            ** 3_1_d:   Минимум из массива чисел
+        */
+        function getMinNumber(numArr){
+            return Math.min.apply( null, numArr);
+        }
+        console.log('Минимум массива: ' + getMinNumber(simleNumArray));
+
+
+        /**
+            ** 3_1_f:   Возвращаем четные числа из массива
+        */
+        function getEvenNum(elem, index, arr){
+            if( elem % 2 == 0){
+                console.log('Элемент массива [' + index + '] с четным значением = ' + elem);
+            }
+        }
+        //возвращаем четные
+        simleNumArray.forEach(getEvenNum);
+        
+    </script>
+</body>
+</html>
