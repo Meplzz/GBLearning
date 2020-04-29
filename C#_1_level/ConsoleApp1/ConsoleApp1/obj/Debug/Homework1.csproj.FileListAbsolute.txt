@@ -1,0 +1,10 @@
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\Homework1.csprojAssemblyReference.cache
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\Homework1.csproj.CoreCompileInputs.cache
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\System.ValueTuple.dll
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\System.ValueTuple.xml
+D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\Homework1.csproj.CopyComplete
