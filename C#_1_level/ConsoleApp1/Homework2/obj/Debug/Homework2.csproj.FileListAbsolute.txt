@@ -1,0 +1,7 @@
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\Homework2\obj\Debug\Homework2.csprojAssemblyReference.cache
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\Homework2\obj\Debug\Homework2.csproj.CoreCompileInputs.cache
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\Homework2\bin\Debug\Homework2.exe.config
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\Homework2\bin\Debug\Homework2.exe
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\Homework2\bin\Debug\Homework2.pdb
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\Homework2\obj\Debug\Homework2.exe
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\Homework2\obj\Debug\Homework2.pdb

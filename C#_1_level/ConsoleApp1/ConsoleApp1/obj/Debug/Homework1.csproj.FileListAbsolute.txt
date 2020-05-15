@@ -8,3 +8,13 @@ D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.
 D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\System.ValueTuple.dll
 D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\System.ValueTuple.xml
 D:\Project\GB_Learning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\Homework1.csproj.CopyComplete
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\System.ValueTuple.dll
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\bin\Debug\System.ValueTuple.xml
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\Homework1.csprojAssemblyReference.cache
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\Homework1.csproj.CoreCompileInputs.cache
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\Homework1.csproj.CopyComplete
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Project\GeekBrains\Обучение на C# программиста\GBLearning\C#_1_level\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
